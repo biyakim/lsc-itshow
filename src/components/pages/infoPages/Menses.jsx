@@ -1,9 +1,12 @@
 import React from 'react';
+import Post from '../../ui/Post';
 
 function Menses(props) {
+    const posts = ["정보1", "정보2"];
+
     return (
         <>
-            <h1>월경 정보 페이지</h1>
+            <Post where="허리" posts={posts}></Post>
         </>
     )
 }
